@@ -14,6 +14,13 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
+    <repositories>
+<!--        <repository>-->
+<!--            <id>local-maven-repo</id>-->
+<!--            <url>C:/Users/Mor/.m2/repository/</url>-->
+<!--        </repository>-->
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -23,7 +30,9 @@
         <dependency>
             <groupId>org.app2</groupId>
             <artifactId>App2</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0-SNAPSHOT</version>
+            <!--            <scope>system</scope>-->
+<!--            <systemPath>C:/Users/Mor/.m2/repository/org/App2/App2/1.0-SNAPSHOT/App2-1.0-SNAPSHOT-exec.jar</systemPath>-->
         </dependency>
     </dependencies>
 
